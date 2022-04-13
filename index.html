@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Todo List </title>
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="./script.js" defer type="module"></script>
+    </head>
+    <body class="app">
+        <header class="header">
+            <a href="" class="header__logo link" href="/">
+                <img src="./bird128.png" alt="Лого" width="32" heigth="32" />
+                <h1 class="header__title">Tensor Todo</h1>
+            </a>
+            <input type="search" class="header__search" placeholder="Search todo..." />
+            <nav class="header__navigation">
+                <a href="/" class="link">Pricing</a>
+                <a href="/" class="link">About</a>
+            </nav>
+        </header>
+        <aside class="accordion">
+            <ul class="tags">
+                <li class="tag" tabindex="0">Work</li>
+                <li class="tag" tabindex="0">Home</li>
+                <li class="tag" tabindex="0">Reading list</li>
+            </ul>
+        </aside>
+        <main class="content">
+            <form class="todo-add-form">
+                <input class="todo-input" type="text" placeholder="Add todo..." required />
+            </form>
+            <section class="todos">
+             
+            </section>
+        </main>
+        <footer class="footer">
+            <p>© Tensor 2022 </p>
+            <nav class="footer__nagivation">
+                <a class="link" href="./">Pricing</a>
+                <a
+                  class="link"
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener"
+                  >Github</a>
+                <a class="link" href="./">About</a>
+              </nav>
+        </footer>
+    </body>
+</html>

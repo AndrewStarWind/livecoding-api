@@ -1,0 +1,20 @@
+{
+  "name": "todo-live-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "serve": "^13.0.2"
+  }
+}
